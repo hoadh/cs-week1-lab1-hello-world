@@ -1,3 +1,5 @@
-using System;
+Console.WriteLine("Enter your name: ");
 
-Console.Println("Hello World");
+string yourName = Console.ReadLine();
+
+Console.WriteLine("Hello: " + yourName);
